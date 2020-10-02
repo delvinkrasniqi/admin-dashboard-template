@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerraxhia.</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    
+    <!-- Dashboard content here -->
+
+    <div class="navigation">
+        <div class="logo"><i class="fab fa-pied-piper"></i><span>logoHere</span></div>
+        <ul>
+            <li class="active"><a href="#"><i class="fas fa-table"></i> <span class="title">Dashboard</span></a></li>
+            <li><a href="#"><i class="fas fa-thumbtack"></i> <span class="title">My Task</span></a></li>
+            <li><a href="#"><i class="fas fa-tasks"></i><span class="title">My Projects</span></a></li>
+            <li><a href="#"><i class="fas fa-wallet"></i> <span class="title">My Wallet</span></a></li>
+            <li><a href="#"><i class="fas fa-database"></i> <span class="title">History Data</span></a></li>
+            <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> <span class="title">Invoice</span></a></li>
+            <li><a href="#"><i class="fas fa-info"></i> <span class="title">Helps</span></a></li>
+        </ul>
+        
+        <div class="toggle" onclick="toggleMenu()"></div>
+    </div>
+    <div class="content-wrapper">
+        <div class="top-nav">
+            <ul>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                <li><a href=""></a><i class="fas fa-users"></i></li>
+            </ul>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <h2>My credit card</h2>
+                        <hr>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, omnis neque quis rem quibusdam natus laborum eligendi, ad distinctio nulla iusto repudiandae harum eos. Dolore?</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="card">  
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptatum consectetur necessitatibus! Placeat in, amet tenetur dolorum sed iste voluptatem illum voluptates dignissimos asperiores possimus assumenda fugiat, harum dolore animi, inventore vel magnam excepturi accusamus? Tenetur obcaecati facere quasi delectus perferendis minus quis deleniti deserunt aperiam recusandae vitae maiores neque repellat quae ad dolores consequatur totam necessitatibus, eos et similique tempora! Voluptatem vel commodi enim iste nemo. Facere in doloremque ea provident animi unde fugiat quos accusantium, officia aliquid nulla illo harum amet, atque aperiam.</p>
+                    </div> </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function toggleMenu(){
+            let navigation = document.querySelector(".navigation");
+            let toggle = document.querySelector(".toggle");
+
+            navigation.classList.toggle("active");
+            toggle.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
